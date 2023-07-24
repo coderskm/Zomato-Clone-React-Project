@@ -1,10 +1,76 @@
 .navbar-container{
     display:flex;
-    background-color:red;
+    align-items:center;
+    justify-content:space-between;
     padding:15px 10%;
 }
 
 .navbar-logo{
     height:30px;
     width:fit-content;
+}
+
+.navbar-search-container{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    margin:0 20px;
+    padding:8px;
+    border: 1px solid whitesmoke;
+}
+
+.navbar-search-location{
+    display:flex;
+    align-items:center;
+
+}
+
+.navbar-search-rest{
+    display:flex;
+    align-items:center;
+    width:65%;
+
+}
+
+.navbar-search-location-sign{
+    height:20px;
+    width:fit-content;
+}
+
+.navbar-search-chevron{
+    width:20px;
+}
+
+.navbar-search-verticalLine{
+    height:25px;
+}
+
+.navbar-searchIcon{
+    height:20px;
+    widht:fit-content;
+}
+
+.navbar-input-location,.navbar-input-rest {
+    border:none;
+    background:transparent;
+    outline:none;
+    font-weight:500px;
+    margin-left:5px;
+}
+
+.navbar-input-rest{
+    width:100%;
+}
+
+.btn-container{
+    border:online;
+
+}
+
+.login-btn, .signup-btn{
+    border:none;
+    outline:none;
+    background-color:white;
+    font-size:18px;
+    margin-right:10px;
 }
