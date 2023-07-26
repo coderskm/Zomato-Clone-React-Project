@@ -8,9 +8,6 @@
     padding:5px;
 }
 
-
-
-
 .restaurant-details-card-description-container, .restaurant-details-card-title-container{
     display:flex;
     align-items:center;
@@ -30,5 +27,5 @@
     color:white;
     padding:2px 10px;
     display:flex;
-    
+    border-radius:10px;
 }
